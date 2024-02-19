@@ -1,0 +1,109 @@
+@font-face {
+  font-family: xfont;
+  src: url("/data/json/font/ShadowsIntoLight-Regular.ttf");
+}
+@font-face {
+  font-family: pmxf;
+  src: url("/data/json/font/Kalam-Regular.ttf");
+}
+@font-face {
+  font-family: ourlogo;
+  src: url("/data/json/font/nahidhklogo.ttf");
+}
+body{
+  margin: 0;
+  padding: 0;
+    font-family: pmxf;
+
+}
+.nav{
+  backdrop-filter: blur(5px);
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0 9px 0 #000000;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.logoimg{
+  height: 80px;
+}
+.imgio{
+  height: 100%;
+  width: 100%;
+}
+.cscard{
+  height: auto;
+  text-align: 100%;
+  width: 80%;
+  background-color: #4690ff;
+  border: 1px solid #4690ff;
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px 0 black;
+}
+h1,h2,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+}
+/* use for data btn*/
+.btn{ 
+  padding: 10px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #4680ff;
+}
+.btn:active{
+  padding: 100px;
+}
+.footer{
+  height: 100%;
+  width: 100%;
+  background-color: #888888;
+padding-bottom: 50px;
+  margin-top: 20px;
+  color: white;
+}
+.nahidhk{
+  font-size: 2.2rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 8px solid #00B0FF;
+  border-left: 8px solid #00B0FF;
+  border-radius: 100px;
+font-family: ourlogo;
+}
+.im{
+  color: #00b0ff;
+}
+.sicon{
+  margin-left: 10px;
+  font-size: 32px;
+  transition: all 1s;
+  color: #fff;
+  text-decoration: none;
+}
+.sicon:hover{
+  color: #FFFB1E;
+padding: 5px;
+  cursor: pointer;
+    font-size: 35px;
+
+}
+.sicon:active{
+  padding: 10px;
+  border-radius: 1px;
+  border: 1px dotted red;
+}
+.fonti{
+   font-family: xfont;
+}
