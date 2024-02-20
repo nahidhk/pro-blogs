@@ -93,10 +93,8 @@ font-family: ourlogo;
   text-decoration: none;
 }
 .sicon:hover{
-  color: #FFFB1E;
-padding: 5px;
   cursor: pointer;
-    font-size: 35px;
+color: #ff00d0;
 
 }
 .sicon:active{
