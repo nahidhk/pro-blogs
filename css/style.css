@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5{
   color: #4680ff;
 }
 .btn:active{
-  padding: 100px;
+ padding: 100px;
 }
 .footer{
   height: 100%;
@@ -98,9 +98,7 @@ color: #ff00d0;
 
 }
 .sicon:active{
-  padding: 10px;
-  border-radius: 1px;
-  border: 1px dotted red;
+ background-color: #fff;
 }
 .fonti{
    font-family: xfont;
