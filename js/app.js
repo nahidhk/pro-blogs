@@ -19,7 +19,7 @@ async function displayData() {
       <p>
       ${item.paragraph}
       </p>
-      <a class="btn" href="${item.btnurl}" target="_blnk">Know more</a>
+      <a class="btn" href="${item.btnurl}" target="_blnk">Know more</a><br><br>
     </div>  
             `;
             dataContainer.appendChild(itemElement);

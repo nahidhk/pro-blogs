@@ -29,10 +29,18 @@ body{
 .logoimg{
   height: 80px;
 }
+
 .imgio{
   height: 100%;
-  width: 100%;
+  width: 50%;
+ float: left;
 }
+.cscard::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .cscard{
   height: auto;
   text-align: 100%;
@@ -40,8 +48,7 @@ body{
   background-color: #4690ff;
   border: 1px solid #4690ff;
   color: #fff;
-  padding-top: 2px;
-  padding-bottom: 20px;
+
   margin-top: 30px;
   box-shadow: 0 0 10px 0 black;
 }
@@ -103,3 +110,29 @@ color: #ff00d0;
 .fonti{
    font-family: xfont;
 }
+.link a{
+  text-decoration: none;
+  color: #FFF800;
+  font-family: serif;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+.imgio{
+  height: 100%;
+  width: 100%;
+}
+.cscard{
+  height: auto;
+  text-align: 100%;
+  width: 80%;
+  background-color: #4690ff;
+  border: 1px solid #4690ff;
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px 0 black;
+}
+}
+
