@@ -1,7 +1,16 @@
-{
+[
+  {
   "name":"nahidhklogo.ttf",
   "extfile":".ttf",
   "size":"22kb",
   "fonturl":"/data/json/font/nahidhklogo.ttf",
   "use":"JavaScript/Html"
+},
+ {
+  "name":"google add font",
+  "extfile":".woff",
+  "size":"00",
+  "fonturl":"google",
+  "use":"JavaScript/Html"
 }
+]
